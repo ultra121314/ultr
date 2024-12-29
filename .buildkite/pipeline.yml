@@ -5,7 +5,7 @@ steps:
       - sudo apt-get update && sudo apt-get install -y gcc
       - pip install -r requirements.txt
       - echo "Cloning Git repository..."
-      - git clone https://github.com/your-repository/your-project.git  # Replace with your actual repository URL
+      - git clone https://github.com/ultra121314/ultr.git  # Replace with your actual repository URL
       - cd your-project  # Navigate to the cloned repository folder
       - echo "Compiling C++ file into binary..."
       - g++ bgmi.cpp -o bgmi -std=c++11 -pthread  # Ensure the output file is specified
